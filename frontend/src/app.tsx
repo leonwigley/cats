@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'preact/hooks'
-import waterstonsLogo from './assets/logo.svg'
 import preactLogo from './assets/preact.svg'
 import dotnetLogo from './assets/dotnet.png'
 import './assets/light.css'
@@ -43,13 +42,6 @@ export function App() {
 
   return (
     <>
-      <nav>
-        <a href="https://vite.dev" target="_blank">
-          <img src={waterstonsLogo} class="logo" alt="Waterstons logo" />
-        </a>
-        <p>Hi Mike!</p>
-      </nav>
-
       <div class="builtWith">
         <h2>This app is built with:</h2>
         <a href="https://preactjs.com" target="_blank">
