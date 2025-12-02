@@ -1,0 +1,6 @@
+bin/
+.vite/
+node_modules/
+.env/
+dist/
+obj/
